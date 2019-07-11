@@ -15,9 +15,6 @@ for (let i = 0; i < ch / rh; i++) {
   c.lineTo(ch, i * rh)
   c.moveTo( i * rh,0);
   c.lineTo(i*rh,ch)
-  c.closePath();
-  c.fillStyle = 'green';
-  c.fill();
-  c.stroke()
 }
+c.stroke()
 
