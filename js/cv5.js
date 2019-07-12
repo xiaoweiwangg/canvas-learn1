@@ -3,9 +3,10 @@ let c = canvas.getContext("2d")
 canvas.height = $(window).height()
 canvas.width = $(window).width()
 c.lineWidth = 1.5;
+canvas.style.overflow="hiden"
 // c.strokeRect(100,100,100,100)
 
-let rs = 100
+let rs = 150
 let cw = $(window).width()
 let ch = $(window).height()
 ani = () => {
@@ -18,5 +19,3 @@ ani = () => {
   }
 }
 ani()
-setInterval(() => {
-}, 1000 / 60);
